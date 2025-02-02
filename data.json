@@ -1,0 +1,8 @@
+[
+  { "topic": "Work", "time": 32 },
+  { "topic": "Play", "time": 10 },
+  { "topic": "Study", "time": 4 },
+  { "topic": "Exercise", "time": 4 },
+  { "topic": "Social", "time": 5 },
+  { "topic": "Self Care", "time": 2 }
+]
