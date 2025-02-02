@@ -17,15 +17,30 @@ const Card = ({ socials }: Props) => {
       key={topic}
       sx={{
         backgroundColor: "red",
+        paddingTop: "2.5rem",
         color: "white",
+        borderRadius: "1rem",
+        margin: "0 .5rem",
+        marginBottom: "2rem",
       }}
     >
-      <Box sx={{ display: "flex" }}>
-        <Typography variant="h5">{topic} hrs</Typography>
-        <Button> ... </Button>
+      <Box
+        className="textContainer"
+        sx={{
+          backgroundColor: "orange",
+          borderRadius: "1rem",
+          padding: "1rem",
+          width: "10rem",
+          height: "8rem",
+        }}
+      >
+        <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+          <Typography variant="h6">{topic} </Typography>
+          <Button> ... </Button>
+        </Box>
+        <Typography sx={{ fontSize: "2rem" }}>{time} hrs</Typography>
+        <Typography sx={{ fontSize: ".75rem" }}>Last Week - {time}</Typography>
       </Box>
-      <Typography variant="h2">{time}</Typography>
-      <Typography sx={{ fontSize: ".75rem" }}>Last Week - {time}</Typography>
     </Box>
   );
 };

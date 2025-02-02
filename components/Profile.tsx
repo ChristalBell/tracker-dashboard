@@ -9,10 +9,12 @@ const Profile = () => {
       sx={{
         display: "flex",
         flexDirection: "column",
-        width: "30vw",
+        backgroundColor: "blue",
+        // height: "30vh",
+        borderRadius: "1rem",
       }}
     >
-      <Box sx={{ backgroundColor: "blue" }}>
+      <Box sx={{ padding: "8rem 2rem" }}>
         <Typography>
           report for <br></br>
           <span style={{ fontSize: "3rem" }}>Jeremy Robson</span>
@@ -23,6 +25,8 @@ const Profile = () => {
           backgroundColor: "navy",
           display: "flex",
           flexDirection: "column",
+
+          borderRadius: "1rem",
         }}
       >
         <Button>Daily</Button>

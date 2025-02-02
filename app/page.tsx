@@ -8,7 +8,7 @@ import data from "../data.json";
 const Home = () => {
   const [socials, setSocials] = useState(data);
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex", padding: "20vh 10vw" }}>
       <Profile />
       <Box
         sx={{
