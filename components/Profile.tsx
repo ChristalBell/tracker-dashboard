@@ -5,7 +5,13 @@ import React from "react";
 
 const Profile = () => {
   return (
-    <Box sx={{ display: "flex", flexDirection: "column", width: "35vw" }}>
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        width: "30vw",
+      }}
+    >
       <Box sx={{ backgroundColor: "blue" }}>
         <Typography>
           report for <br></br>
